@@ -7,7 +7,7 @@ import { CategoryList } from "./components/categories/CategoryList";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-violet-200 to-violet-400">
+    <div className="min-h-screen bg-gradient-to-r from-indigo-50 to-indigo-300">
       <header className="container mx-auto px-4 py-16 md:py-24">
         <Navigation />
         <Hero />

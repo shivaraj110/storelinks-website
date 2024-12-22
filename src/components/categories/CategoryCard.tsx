@@ -14,7 +14,7 @@ export function CategoryCard({
   count,
 }: CategoryCardProps) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+    <div className="bg-white/70 backdrop-blur-sm backdrop-brightness-150 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
       <div className="flex items-center justify-between mb-4">
         <Icon className="w-8 h-8 text-indigo-600" />
         <span className="text-sm text-gray-500">{count} links</span>

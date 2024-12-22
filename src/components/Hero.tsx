@@ -1,5 +1,4 @@
-import React from 'react';
-import { Chrome } from 'lucide-react';
+import { Chrome } from "lucide-react";
 
 export function Hero() {
   return (
@@ -9,8 +8,9 @@ export function Hero() {
           Your Personal
           <span className="text-indigo-600"> Link Library</span>
         </h1>
-        <p className="text-xl text-gray-600 mb-8">
-          Save, organize, and share your favorite links. Create personal collections and discover curated link directories from the community.
+        <p className="text-xl text-black mb-8">
+          Save, organize, and share your favorite links. Create personal
+          collections and discover curated link directories from the community.
         </p>
         <div className="flex items-center space-x-4">
           <button className="flex items-center space-x-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition">

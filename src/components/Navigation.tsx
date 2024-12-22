@@ -5,7 +5,7 @@ export function Navigation() {
     <nav className="flex items-center justify-between mb-16">
       <div className="flex items-center space-x-2">
         <Link className="w-8 h-8 text-indigo-600" />
-        <span className="text-xl font-bold">StoreLinks</span>
+        <span className="text-xl text-black font-bold">StoreLinks</span>
       </div>
       <div className="flex items-center space-x-6">
         <a href="#features" className="text-gray-600 hover:text-gray-900">
