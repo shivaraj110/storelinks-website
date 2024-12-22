@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'lucide-react';
+import React from "react";
+import { Link } from "lucide-react";
 
 export function Footer() {
   return (
@@ -11,10 +11,19 @@ export function Footer() {
             <span className="font-bold">StoreLinks</span>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-600 hover:text-gray-900">Privacy</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">Terms</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">Contact</a>
+            <a href="#" className="text-gray-600 hover:text-gray-900">
+              Privacy
+            </a>
+            <a href="#" className="text-gray-600 hover:text-gray-900">
+              Terms
+            </a>
+            <a href="#" className="text-gray-600 hover:text-gray-900">
+              Contact
+            </a>
           </div>
+        </div>
+        <div className="text-center mt-8 text-gray-500 text-sm">
+          © {new Date().getFullYear()} StoreLinks. All rights reserved.
         </div>
       </div>
     </footer>
